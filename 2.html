@@ -1,0 +1,17 @@
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<body bgcolor = "#ffcc99">
+<script language = "javascript">
+var Arraycolor = new Array("red","yellow","blue","green","purple");
+var n = 0;
+function turncolor(){
+	if (n == (Arraycolor.length-1)) n = 0;
+	n ++ ;
+	document.bgColor = Arraycolor[n];
+}
+</script>
+
+<form name = "form1" method = "post" actin = "">
+<input type = "button" name = "Submit" value = "变换背景" onclick = "turncolor()"><p>点击按钮变化背景色
+</form>
+</body>
